@@ -1,0 +1,161 @@
+[
+    {
+        "param_name": "g_pas",
+        "sectionlist": "all",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 3e-05
+    },
+    {
+        "param_name": "e_pas",
+        "sectionlist": "all",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": -70
+    },
+    {
+        "param_name": "cm",
+        "sectionlist": "all",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 1.2
+    },
+    {
+        "param_name": "Ra",
+        "sectionlist": "all",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 100
+    },
+    {
+        "param_name": "v_init",
+        "type": "global",
+        "value": -70
+    },
+    {
+        "param_name": "celsius",
+        "type": "global",
+        "value": 20
+    },
+    {
+        "param_name": "gkdrbar_kdr",
+        "mech": "kdr",
+        "bounds": [
+            0.00001,
+            0.9
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gkdrbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_nax",
+        "mech": "nax",
+        "bounds": [
+            0.01,
+            0.9
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gkabar_kap",
+        "mech": "kap",
+        "bounds": [
+            0.00001,
+            0.9
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gkabar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gcalbar_cal",
+        "mech": "cal",
+        "bounds": [
+            0.000000001,
+            0.05
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gcalbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gcanbar_can",
+        "mech": "can",
+        "bounds": [
+            0.000000001,
+            0.005
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gcanbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gcatbar_cat",
+        "mech": "cat",
+        "bounds": [
+            0.000000001,
+            0.05
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gcatbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "ghdbar_hd",
+        "mech": "hd",
+        "bounds": [
+            0.00001,
+            0.01
+        ],
+        "dist_type": "uniform",
+        "mech_param": "ghdbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_kca",
+        "mech": "kca",
+        "bounds": [
+            0.000000001,
+            0.0005
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_kmb",
+        "mech": "kmb",
+        "bounds": [
+            0.000000001,
+            0.005
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_cagk",
+        "mech": "cagk",
+        "bounds": [
+            0.000000001,
+            0.05
+        ],
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    }
+]
+

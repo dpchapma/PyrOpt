@@ -1,0 +1,146 @@
+{
+    "Step9": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.180,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step8": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.160,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step7": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.140,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step6": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.120,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step5": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.100,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step4": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.080,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step3": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.060,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step2": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.040,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    },
+    "Step1": {
+        "stimuli": [
+            {
+                "delay": 200,
+                "amp": 0.020,
+                "duration": 400,
+                "totduration": 800
+            },
+            {
+                "delay": 0,
+                "amp": 0.0,
+                "duration": 800,
+                "totduration": 800
+            }
+        ]
+    }
+}
