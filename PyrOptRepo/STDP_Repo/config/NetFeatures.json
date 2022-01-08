@@ -1,0 +1,10 @@
+{
+    "NetStim": {
+        "soma": {
+            "maximum_voltage": [
+                -50,
+                1
+            ]
+        }
+}
+}
