@@ -42,7 +42,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
 #%%
-# Let's import just the simple cell morphology and create one section for the soma 
+# Let's import just the simple cell morphology and create one section for the soma uncomment if you want to look at morphology
 
 # import neurom.viewer
 # neurom.viewer.draw(neurom.load_neuron('morphology/fx_CA1_8.CNG.swc'));
@@ -50,16 +50,17 @@ logger.setLevel(logging.DEBUG)
 
 #%%
 def main():
-    # morphology = ephys.morphologies.NrnFileMorphology('PyrOpt/morphology/Mouse-CA1-Pyramidal-Cell.CNG.swc',
-    #                                                  do_replace_axon=True)
-    morphology = ephys.morphologies.NrnFileMorphology('PyrOpt/morphology/fx_CA1_8.CNG.swc',
-                                                       do_replace_axon=True)
-    # Morph taken from 
+
+    # Morph taken from
     # http://neuromorpho.org/MorphometryBrowseView.jsp?MS11=measurements&MS12=neuron
     # _id&MS13=Operator:=&MS14=60522&MS21=measurements&MS22=&MS23=Operator:=&MS24
     # =&MS31=measurements&MS32=&MS33=Operator:=&MS34=&MS41=measurements&MS42=&MS43
     # =Operator:=&MS44=&MS51=measurements&MS52=&MS53=Operator:=&MS54=&MS61
     # =measurements&MS62=&MS63=Operator:like&MS64=&browseBy=1
+
+    morphology = ephys.morphologies.NrnFileMorphology('PyrOpt/morphology/fx_CA1_8.CNG.swc',
+                                                       do_replace_axon=True)
+
     
     #%%
     # # Since we have many parameters in this model, they are stored in a json file:
